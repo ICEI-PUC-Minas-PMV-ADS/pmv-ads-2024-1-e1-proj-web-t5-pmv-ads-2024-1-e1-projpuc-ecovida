@@ -1,12 +1,12 @@
 # PUC - EcoVida
 
-`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - PUC MINAS`
 
 `PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`2024/01`
+`1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é desenvolver uma aplicação web que facilite a localização de informações sobre questões ambientais, promova a conscientização e desenvolva ações em prol da sustentabilidade.
 
 ## Integrantes
 
@@ -19,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Orientador
 
-* Prof. Marco Rodrigo Costa
+* Marco Rodrigo Costa
 
 # Documentação
 
