@@ -1,35 +1,40 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Nos últimos anos, a preocupação com o meio ambiente e a necessidade de adotar práticas sustentáveis têm ganhado destaque em todo o mundo. No Brasil, desde a Constituição de 1988, a preservação ambiental é um tema central, refletindo-se no direito de todos a um meio ambiente ecologicamente equilibrado (STJ, 2023).
+
+No entanto, apesar do crescente interesse e da conscientização sobre questões ambientais, muitas pessoas ainda encontram dificuldades em acessar informações relevantes e em aplicar hábitos sustentáveis em suas vidas diariamente (Reporter Diário, 2022).
+
+Surge, então, a necessidade de criar um ambiente que concentre e dissemine informações sobre o meio ambiente de forma acessível e descomplicada e que capacite e estimule os indivíduos a adotarem práticas mais sustentáveis em suas comunidades.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+O problema identificado, e que o presente projeto pretende tratar, é a difícil localização de informações concentradas sobre questões ambientais e de sustentabilidade.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Apesar do aumento do interesse de grande parte da população sobre esses temas, ainda é árdua a obtenção de informações sobre esses assuntos e isso torna ainda mais difícil o engajamento das pessoas em causas ambientais, na participação em discussões sobre os efeitos nocivos da poluição e desmatamento no meio ambiente, por exemplo, e a voluntariedade em eventos de sustentabilidade.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo geral deste projeto é desenvolver uma aplicação web que facilite a localização de informações sobre questões ambientais, promova a conscientização e desenvolva ações em prol da sustentabilidade. Especificamente o projeto tem os seguintes objetivos:
+    <ul>
+    <li>Promover a conscientização sobre questões ambientais, como poluição do ar, mudanças climáticas, conservação da biodiversidade, entre outros, em determinado local do Brasil, por meio de dicas práticas, publicações, tutoriais e recursos interativos como quizzes.</li>
+    <li>Apresentar gráfico sobre os níveis dos diversos tipos de poluição nos Estados brasileiros para dar visibilidade à questão ambiental e gerar conscientização da gravidade destes problemas.</li>
+    <li>Oferecer uma ferramenta de acompanhamento de hábitos para o registro e monitoramento de atividades relacionadas à sustentabilidade e proteção ambiental como: redução do consumo de energia, uso de transporte sustentável, práticas de reciclagem, participação em atividades de conservação, redução no consumo de plástico, entre outros.</li>
+    <li>Disponibilizar formulário onde sejam imputados dados sobre focos de emissões de poluentes em sua localidade.</li>
+    <li>Organizar fóruns dedicados a discussão e o compartilhamento de informações sobre recursos ambientais locais, como: áreas verdes, trilhas ecológicas, parques e outros pontos de interesse ambiental.</li>
+    <li>Divulgar mapa com pontos de coleta de lixo reciclável para facilitar a localização destes locais e para que o descarte seja realizado de forma adequada.</li>
+    </ul>
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+O crescimento da população global, a escassez de alimento, a utilização desenfreada de matéria não reutilizável, o grande aumento do desmatamento e o consumismo mundial afetam diretamente o equilíbrio ambiental e, por consequência, afetam o dia a dia da sociedade em questões que muitas vezes não se tem conhecimento.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+Segundo pesquisa coordenada por Rogério Lopes (2022), cientista econômico e pesquisador do Observatório de Políticas Públicas, Empreendedorismo e Conjuntura da Universidade de São Caetano do Sul e realizada por alunos desta universidade: 50% das pessoas que responderam ao questionário revelaram conhecimento máximo em relação ao tema ‘preservação ambiental’, 29% conhecimento médio e 21% conhecimento mínimo (Reporter Diário, 2022).
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Apesar disso, em estudo realizado pela Getty Images (2020) é observado um número cada vez maior de pessoas para as quais temas relacionados ao meio ambiente seguem no topo de sua lista de prioridades (Consumidor Moderno, 2020).
+
+Diante disso, apresenta-se como uma resposta direta para essa necessidade premente, a criação de um ambiente digital que facilite o acesso a informações sobre práticas sustentáveis, alternativas ecológicas e impactos das atividades humanas no meio ambiente, com potencial para capacitar os indivíduos a fazerem escolhas mais conscientes em suas tarefas diárias além de ser uma plataforma interativa e colaborativa na qual se possa fomentar uma comunidade engajada e motivada a tomar medidas concretas para proteger e preservar o planeta para as gerações futuras.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Esta aplicação visa atingir pessoas, a partir da idade escolar, com acesso à internet e que possuem interesse em questões ambientais e de sustentabilidade.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
-
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-
+O projeto contempla desde leigos no assunto que buscam compreender melhor como o ambiente em que vivem está sendo afetado até aqueles que buscam práticas sustentáveis para incluir em suas rotinas diárias, passando por residentes de áreas urbanas e industrializadas com alto grau poluição ou desmatamento, até profissionais de saúde, educadores e formuladores de políticas e organizações ambientais.
