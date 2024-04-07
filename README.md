@@ -1,25 +1,25 @@
-# Título do Projeto
+# PUC - EcoVida
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`2024/01`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Carine Nascimento Marques
+* Claudius Suetonio de Abreu Domingues Junior
+* Janaina Esteves de Faria
+* Priscila Roque Batista Dias
+* Ryan Aragão
+* Wesley Duarte da Silva
 
 ## Orientador
 
-* Nome completo do professor
+* Prof. Marco Rodrigo Costa
 
 # Documentação
 
