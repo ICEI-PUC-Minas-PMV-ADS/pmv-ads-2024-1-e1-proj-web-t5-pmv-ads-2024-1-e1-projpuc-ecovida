@@ -10,13 +10,28 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 
 Figura 1 - Fluxo do usuário
 
+
+## Protótipo de baixa fidelidade
+
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 2 grandes blocos, descritos a seguir. São eles:
+
+- Conteúdo - Esta área exibe o conteúdo principal da tela, apresentando as informações e funcionalidades relevantes para o usuário.
+
+ - Sidebar - A barra lateral contém elementos de navegação e acesso rápido, oferecendo uma maneira conveniente para os usuários interagirem com a aplicação.
+
+
+![prototipo](https://media.discordapp.net/attachments/1038811979856494602/1227004219110981723/prototipo_tela.png?ex=6626d3ba&is=66145eba&hm=3e3598d98f581f13137c4d97421c29f6744312e24ee5ede8381de0800dadf883&=&format=webp&quality=lossless&width=897&height=565)
+
+Figura 2 - Estrutura padrão do site
+
+
 ### Tela - Home page
 
 A tela de home page apresenta...
   
 ![homepage](https://media.discordapp.net/attachments/1038811979856494602/1226980580776874106/home_tela.png?ex=6626bdb6&is=661448b6&hm=98c9aa9a1985c428ceb818068f0987efbed8d4d1bc7eda839fb9c0afbd7345e4&=&format=webp&quality=lossless&width=901&height=565)
 
-Figura 2 - Tela home page
+Figura 3 - Tela home page
 
 
 
@@ -27,7 +42,7 @@ A tela de Login apresenta campos para a inserção do usuário e da senha.
 ![login](https://media.discordapp.net/attachments/1038811979856494602/1226999681372913755/Tela_login.png?ex=6626cf80&is=66145a80&hm=b74b99bea5f06c8b28cb07fffdb6d0091638b48bb33ca2b9009e31971665b9e7&=&format=webp&quality=lossless&width=906&height=565)
 
   
- Figura 3 - Tela de login
+ Figura 4 - Tela de login
 
  ### Tela - Cadastro
 
@@ -36,7 +51,7 @@ A tela de cadastro oferece campos para que o usuário insira seu nome de usuári
 ![login](https://media.discordapp.net/attachments/1038811979856494602/1226999653342511164/cadastro_tela.png?ex=6626cf79&is=66145a79&hm=4bcbbfb04f3358f5bb3c7b54f82008303a8bd97165386ffec36a51b049b6b842&=&format=webp&quality=lossless&width=907&height=565)
 
   
- Figura 4 - Tela de cadastro
+ Figura 5 - Tela de cadastro
 
  ### Tela - Redefinir Senha
 
@@ -45,4 +60,10 @@ Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome 
 ![redefinir-senha](https://media.discordapp.net/attachments/1038811979856494602/1226999233610121276/redefinir_tela.png?ex=6626cf15&is=66145a15&hm=6d6affe6290f9d1d2f33a7049b43d66b53fcfe01cc1b34aa0f6ef970930f9ade&=&format=webp&quality=lossless&width=901&height=565)
 
   
- Figura 5 - Tela  de redefinir senha
+ Figura 6 - Tela  de redefinir senha
+
+
+
+
+
+
