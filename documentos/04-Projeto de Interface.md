@@ -45,4 +45,4 @@ Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome 
 ![redefinir-senha](https://media.discordapp.net/attachments/1038811979856494602/1226999233610121276/redefinir_tela.png?ex=6626cf15&is=66145a15&hm=6d6affe6290f9d1d2f33a7049b43d66b53fcfe01cc1b34aa0f6ef970930f9ade&=&format=webp&quality=lossless&width=901&height=565)
 
   
- Figura 4 - Tela  de redefinir senha
+ Figura 5 - Tela  de redefinir senha
