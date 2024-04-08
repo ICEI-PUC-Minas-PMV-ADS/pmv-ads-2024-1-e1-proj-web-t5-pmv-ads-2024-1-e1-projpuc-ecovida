@@ -1,35 +1,48 @@
 
-# Projeto de Interface TESTE 2
-<!-- 
+# Projeto de Interface
+
+
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/proto/ZGWFdBHeITIK1HuhdenXy5/EcoVida---PUC?type=design&node-id=4-27&t=pDDqPuD6Muygci89-1&scaling=min-zoom&page-id=3%3A248&mode=design).
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+  ![Untitled Diagram-Page-1 drawio (2)](https://media.discordapp.net/attachments/1038811979856494602/1226972129019297825/user_flow.png?ex=6626b5d7&is=661440d7&hm=83344ada955c324e5c9fe3be11bfdf08aa4c62c2f9537d8aafda575c07397e6e&=&format=webp&quality=lossless&width=931&height=565)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Figura 1 - Fluxo do usuário
 
-## Protótipo
+### Tela - Home page
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+A tela de home page apresenta...
+  
+![homepage](https://media.discordapp.net/attachments/1038811979856494602/1226980580776874106/home_tela.png?ex=6626bdb6&is=661448b6&hm=98c9aa9a1985c428ceb818068f0987efbed8d4d1bc7eda839fb9c0afbd7345e4&=&format=webp&quality=lossless&width=901&height=565)
 
-### Protótipo de baixa fidelidade
-
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
-
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+Figura 2 - Tela home page
 
 
- -->
+
+### Tela - Login
+
+A tela de Login apresenta campos para a inserção do usuário e da senha.
+  
+![login](https://media.discordapp.net/attachments/1038811979856494602/1226999681372913755/Tela_login.png?ex=6626cf80&is=66145a80&hm=b74b99bea5f06c8b28cb07fffdb6d0091638b48bb33ca2b9009e31971665b9e7&=&format=webp&quality=lossless&width=906&height=565)
+
+  
+ Figura 3 - Tela de login
+
+ ### Tela - Cadastro
+
+A tela de cadastro oferece campos para que o usuário insira seu nome de usuário, senha e confirme a senha. Além disso, há uma opção para selecionar o estado onde o usuário reside.
+  
+![login](https://media.discordapp.net/attachments/1038811979856494602/1226999653342511164/cadastro_tela.png?ex=6626cf79&is=66145a79&hm=4bcbbfb04f3358f5bb3c7b54f82008303a8bd97165386ffec36a51b049b6b842&=&format=webp&quality=lossless&width=907&height=565)
+
+  
+ Figura 4 - Tela de cadastro
+
+ ### Tela - Redefinir Senha
+
+Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome de usuário e inserir a nova senha duas vezes para confirmá-la. Após concluir o processo de redefinição, o usuário será redirecionado automaticamente para a tela de login.
+  
+![redefinir-senha](https://media.discordapp.net/attachments/1038811979856494602/1226999233610121276/redefinir_tela.png?ex=6626cf15&is=66145a15&hm=6d6affe6290f9d1d2f33a7049b43d66b53fcfe01cc1b34aa0f6ef970930f9ade&=&format=webp&quality=lossless&width=901&height=565)
+
+  
+ Figura 4 - Tela  de redefinir senha
