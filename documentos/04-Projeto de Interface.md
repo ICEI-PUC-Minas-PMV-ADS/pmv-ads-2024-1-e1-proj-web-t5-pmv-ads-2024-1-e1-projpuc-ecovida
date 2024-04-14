@@ -37,9 +37,9 @@ A tela de Login apresenta campos para a inserção do usuário e da senha.
 
  ### Tela - Cadastro
 
-A tela de cadastro oferece campos para que o usuário insira seu nome de usuário, senha e confirme a senha. Além disso, há uma opção para selecionar o estado onde o usuário reside.
-  
-![login](https://media.discordapp.net/attachments/1038811979856494602/1226999653342511164/cadastro_tela.png?ex=6626cf79&is=66145a79&hm=4bcbbfb04f3358f5bb3c7b54f82008303a8bd97165386ffec36a51b049b6b842&=&format=webp&quality=lossless&width=907&height=565)
+A tela de cadastro oferece campos para que o usuário insira seu nome de usuário, senha e confirme a senha.
+
+![cadastro](https://cdn.discordapp.com/attachments/737069685333557319/1229173431959027865/EcoVida_-_Cadastro.png?ex=662eb7f7&is=661c42f7&hm=11cf4af47d98eff8e8551ebfcfea799f8ae2b60cb54ef54472eea6adfb1c3b2b&)
 
   
  Figura 4 - Tela de cadastro
