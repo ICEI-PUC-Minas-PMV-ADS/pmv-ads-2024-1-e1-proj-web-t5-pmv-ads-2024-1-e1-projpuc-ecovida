@@ -5,7 +5,7 @@ STJ. Cidadania ambiental: a construção do futuro sustentável também passa pe
 ZIEGLER, Maria Fernanda. Cresce o interesse de jovens brasileiros em temas de conservação e biodiversidade. Agência FAPESP, 21 set. 2020. Disponível em: 
 <https://agencia.fapesp.br/cresce-o-interesse-de-jovens-brasileiros-em-temas-de-conservacao-e-biodiversidade-aponta-estudo/34175>. Acesso em: 12 mar. 2024;
 
-GARCIA, George. Pesquisa revela pouco conhecimento da população sobre preservação ambiental. Repórter Diário, 15 ago. 2022. Disponível em:<https://www.reporterdiario.com.br/noticia/3140836/pesquisa-revela-pouco-conhecimento-da-populacao-sobre-preservacao-ambiental/>. Acesso em: 16 mar. 2024;
+GARCIA, George. Pesquisa revela pouco conhecimento da população sobre preservação ambiental. Repórter Diário, 15 ago. 2022. Disponível em: <https://www.reporterdiario.com.br/noticia/3140836/pesquisa-revela-pouco-conhecimento-da-populacao-sobre-preservacao-ambiental/>. Acesso em: 16 mar. 2024;
 
 CONSUMIDOR MODERNO. Pesquisa mostra aumento do interesse por preservação do meio ambiente. Consumidor Moderno, 2020. Disponível em: <https://consumidormoderno.com.br/pesquisa-mostra-aumento-do-interesse-por-preservacao-do-meio-ambiente/>. Acesso em: 17 mar. 2024;
 
