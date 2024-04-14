@@ -76,13 +76,21 @@ A tela do fórum no EcoVida é o centro das discussões e interações da comuni
 
 Figura 7 - Tela fórum
 
+### Tela - Visualizar Assunto
+
+Na tela de visualização de um assunto, os usuários podem ver todas as respostas que foram dadas a esse tópico. Cada resposta exibe quem a postou e quando foi postada, permitindo aos usuários acompanhar as interações anteriores. Além disso, os usuários têm a opção de ordenar as respostas de acordo com diferentes critérios, como data de postagem ou popularidade. Também é possível adicionar uma nova resposta diretamente da tela, permitindo uma participação contínua na discussão do assunto.
+  
+![assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229184340978831541/EcoVida_-_Assunto.png?ex=662ec220&is=661c4d20&hm=8244d565ffa01272a8f56e4f53b96ec126413b1d5396b718538859f72442a8dc&)
+
+Figura 8 - Tela visualizar assunto
+
 ### Tela - Criar Assunto
 
 Na tela de criação de assuntos, os usuários podem inserir um título e uma descrição para o tópico, fornecendo contexto e detalhes sobre o assunto em discussão. Além disso, os usuários podem optar por postar anonimamente, permitindo que compartilhem suas opiniões de forma discreta, se assim desejarem.
   
 ![criar-assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229167759116599366/EcoVida_-_Criar_Assunto.png?ex=662eb2ae&is=661c3dae&hm=c93b88d62db29d856a386f96b7beeb6e53c5c628d0f548571caccb3c7aca38ef&)
 
-Figura 8 - Tela criar assunto
+Figura 9 - Tela criar assunto
 
 
 ### Tela - Hábitos
@@ -91,7 +99,7 @@ Na tela de hábitos, os usuários podem visualizar, gerenciar e adicionar novos 
   
 ![habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229168234306080818/EcoVida_-_Habitos.png?ex=662eb31f&is=661c3e1f&hm=acef94e2667de00d638067905b65413bbe001c080e9c8aedf03598d30e8da24e&)
 
-Figura 9 - Tela hábitos
+Figura 10 - Tela hábitos
 
 
 ### Tela - Criar Hábito
@@ -100,7 +108,7 @@ Na tela de criação de hábitos, existe a opção de dar um nome ao hábito, al
 
 ![criar-habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229170807733882942/EcoVida_-_Criar_Habito.png?ex=662eb585&is=661c4085&hm=1b7e0c2f0a0dfd73d2e5c5899acf880320116bf15fe098f35667254e4bc9f26a&)
 
-Figura 10 - Tela criar hábito
+Figura 11 - Tela criar hábito
 
 ### Tela - Postos de coleta
 
@@ -108,6 +116,6 @@ Na tela de postos de coleta, os usuários podem encontrar informações sobre lo
 
 ![postos-de-coleta](https://cdn.discordapp.com/attachments/737069685333557319/1229175908359868518/EcoVida_-_Postos_de_Coleta.png?ex=662eba45&is=661c4545&hm=77696b7d634691d65ce43e11f2c9d936f5f752c9bfe71712010cb7477a91ef8f&)
 
-Figura 10 - Tela postos de coleta
+Figura 12 - Tela postos de coleta
 
 
