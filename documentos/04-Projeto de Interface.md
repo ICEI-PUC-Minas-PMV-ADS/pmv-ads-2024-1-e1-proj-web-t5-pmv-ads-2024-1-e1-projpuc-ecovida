@@ -19,6 +19,8 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
  - Sidebar - A barra lateral contém elementos de navegação e acesso rápido, oferecendo uma maneira conveniente para os usuários interagirem com a aplicação.
 
+ - Rodapé - No footer da aplicação, os usuários encontram uma seção "Sobre" que oferece uma breve descrição do projeto EcoVida. Além disso, há links para outras telas importantes. Esses links facilitam a navegação entre os recursos da aplicação.
+
 
 ![prototipo](https://cdn.discordapp.com/attachments/737069685333557319/1229163330095153213/EcoVida_-_baixa_qualidade.png?ex=662eae8e&is=661c398e&hm=b0d4f06c9c100479cf11fd56de3ccae84bebbb5af677cc4579847c8fd400d843&)
 
@@ -99,5 +101,13 @@ Na tela de criação de hábitos, existe a opção de dar um nome ao hábito, al
 ![criar-habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229170807733882942/EcoVida_-_Criar_Habito.png?ex=662eb585&is=661c4085&hm=1b7e0c2f0a0dfd73d2e5c5899acf880320116bf15fe098f35667254e4bc9f26a&)
 
 Figura 10 - Tela criar hábito
+
+### Tela - Postos de coleta
+
+Na tela de postos de coleta, os usuários podem encontrar informações sobre locais onde podem descartar materiais recicláveis ​​ou realizar a coleta seletiva. Eles podem visualizar uma lista de postos de coleta, cada um exibindo seu nome, telefone e endereço, facilitando o acesso a esses locais. Além disso, os usuários têm a opção de utilizar uma barra de pesquisa para buscar postos de coleta específicos por nome ou localização, tornando mais fácil encontrar locais próximos a eles.
+
+![postos-de-coleta](https://cdn.discordapp.com/attachments/737069685333557319/1229175908359868518/EcoVida_-_Postos_de_Coleta.png?ex=662eba45&is=661c4545&hm=77696b7d634691d65ce43e11f2c9d936f5f752c9bfe71712010cb7477a91ef8f&)
+
+Figura 10 - Tela postos de coleta
 
 
