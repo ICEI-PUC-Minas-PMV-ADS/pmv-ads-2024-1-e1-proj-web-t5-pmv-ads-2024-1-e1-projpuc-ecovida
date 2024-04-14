@@ -4,7 +4,7 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/proto/ZGWFdBHeITIK1HuhdenXy5/EcoVida---PUC?type=design&node-id=4-27&t=pDDqPuD6Muygci89-1&scaling=min-zoom&page-id=3%3A248&mode=design).
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/proto/oR3sWLwY6E2zGtUJguA1U8/EcoVida---Visualiza%C3%A7%C3%A3o?type=design&node-id=2-21&t=mcLMDAikljFHkgV2-1&scaling=min-zoom&page-id=0%3A1&mode=design).
 
   ![fluxo-usuario](https://cdn.discordapp.com/attachments/737069685333557319/1229185910659088527/EcoVida_-_Fluxo_do_Usuario.png?ex=662ec396&is=661c4e96&hm=32cf959fb4f2640791194d6931ea176186d5df79d253feca218de7eaa37f994b&)
 
