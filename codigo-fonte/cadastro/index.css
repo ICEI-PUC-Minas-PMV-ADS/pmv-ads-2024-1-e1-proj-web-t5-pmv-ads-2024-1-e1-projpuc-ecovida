@@ -1,0 +1,9 @@
+#form-cadastro{
+  background-color: var(--gray-200);
+  padding: 20px;
+  align-self: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
