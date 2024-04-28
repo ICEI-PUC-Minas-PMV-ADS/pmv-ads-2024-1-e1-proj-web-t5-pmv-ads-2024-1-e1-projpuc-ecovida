@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 :root {
   /* Tons de verde - variáveis */
   --green-50: #f4f9f4;
@@ -22,7 +24,11 @@
   --gray-700: #444446;
   --gray-800: #333335;
   --gray-900: #282829;
+
+  
 }
+
+
 
 *{
   margin: 0;
@@ -34,10 +40,29 @@ body{
   display: grid;
   justify-content: center;
   height: 100vh;
-
+  font-family: "Comfortaa", sans-serif;
 }
 
 main{
   color: var(--gray-50);
-  margin-top: 40px;
+  margin-top: 20px;
+  max-width: 900px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap:50px
+  }
+
+  h1{
+    font-size: 40px;
+  }
+
+  #info{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+  }
+
+  #img-icon{
+    width: 100px;
   }
