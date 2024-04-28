@@ -1,35 +1,121 @@
 
 # Projeto de Interface
 
+
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/proto/oR3sWLwY6E2zGtUJguA1U8/EcoVida---Visualiza%C3%A7%C3%A3o?type=design&node-id=2-21&t=mcLMDAikljFHkgV2-1&scaling=min-zoom&page-id=0%3A1&mode=design).
 
-[Adicione aqui o diagrama de fluxo de usuário da sua aplicação.] 
+  ![fluxo-usuario](https://cdn.discordapp.com/attachments/737069685333557319/1229185910659088527/EcoVida_-_Fluxo_do_Usuario.png?ex=662ec396&is=661c4e96&hm=32cf959fb4f2640791194d6931ea176186d5df79d253feca218de7eaa37f994b&)
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
+Figura 1 - Fluxo do usuário
 
-## Protótipo
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
+## Protótipo de baixa fidelidade
 
-### Protótipo de baixa fidelidade
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 2 grandes blocos, descritos a seguir. São eles:
 
-Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
+- Conteúdo - Esta área exibe o conteúdo principal da tela, apresentando as informações e funcionalidades relevantes para o usuário.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+ - Sidebar - A barra lateral contém elementos de navegação e acesso rápido, oferecendo uma maneira conveniente para os usuários interagirem com a aplicação.
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
+ - Rodapé - No footer da aplicação, os usuários encontram uma seção "Sobre" que oferece uma breve descrição do projeto EcoVida. Além disso, há links para outras telas importantes. Esses links facilitam a navegação entre os recursos da aplicação.
 
+
+![prototipo](https://cdn.discordapp.com/attachments/737069685333557319/1229163330095153213/EcoVida_-_baixa_qualidade.png?ex=662eae8e&is=661c398e&hm=b0d4f06c9c100479cf11fd56de3ccae84bebbb5af677cc4579847c8fd400d843&)
+
+Figura 2 - Estrutura padrão do site
+
+
+
+### Tela - Login
+
+A tela de Login apresenta campos para a inserção do usuário e da senha.
+  
+![login](https://media.discordapp.net/attachments/1038811979856494602/1226999681372913755/Tela_login.png?ex=6626cf80&is=66145a80&hm=b74b99bea5f06c8b28cb07fffdb6d0091638b48bb33ca2b9009e31971665b9e7&=&format=webp&quality=lossless&width=906&height=565)
+
+  
+ Figura 3 - Tela de login
+
+ ### Tela - Cadastro
+
+A tela de cadastro oferece campos para que o usuário insira seu nome de usuário, senha e confirme a senha.
+
+![cadastro](https://cdn.discordapp.com/attachments/737069685333557319/1229173431959027865/EcoVida_-_Cadastro.png?ex=662eb7f7&is=661c42f7&hm=11cf4af47d98eff8e8551ebfcfea799f8ae2b60cb54ef54472eea6adfb1c3b2b&)
+
+  
+ Figura 4 - Tela de cadastro
+
+ ### Tela - Redefinir Senha
+
+Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome de usuário e inserir a nova senha duas vezes para confirmá-la. Após concluir o processo de redefinição, o usuário será redirecionado automaticamente para a tela de login.
+  
+![redefinir-senha](https://media.discordapp.net/attachments/1038811979856494602/1226999233610121276/redefinir_tela.png?ex=6626cf15&is=66145a15&hm=6d6affe6290f9d1d2f33a7049b43d66b53fcfe01cc1b34aa0f6ef970930f9ade&=&format=webp&quality=lossless&width=901&height=565)
+
+  
+ Figura 5 - Tela  de redefinir senha
+
+
+
+
+
+### Tela - Home page
+
+A tela inicial do EcoVida oferece acesso rápido a recursos essenciais para explorar e participar da comunidade de sustentabilidade. Aqui, os usuários podem participar de fóruns de discussão, adotar hábitos sustentáveis e localizar postos de coleta para promover a conscientização ambiental.
+  
+![homepage](https://cdn.discordapp.com/attachments/737069685333557319/1229164881937436682/EcoVida_-_Home.png?ex=662eb000&is=661c3b00&hm=0aa671d43e4361a57f0e463cd25070ddc1bdcb4813b20fce3345657685d151df&)
+
+Figura 6 - Tela home page
+
+
+### Tela - Fórum
+
+A tela do fórum no EcoVida é o centro das discussões e interações da comunidade sobre questões ambientais. Nesta tela, os usuários podem visualizar uma lista de tópicos de discussão, ordená-los e filtrá-los de acordo com suas preferências. Cada tópico exibe informações importantes, como o número de visualizações, respostas, autor e data de publicação, permitindo aos usuários identificar rapidamente as discussões mais relevantes.
+  
+![forum](https://cdn.discordapp.com/attachments/737069685333557319/1229166324828082186/EcoVida_-_Forum.png?ex=662eb158&is=661c3c58&hm=d4103198520a9d0fe944524ef1f968aec37e7aa2d795b1603d6076f64cf9fae5&)
+
+Figura 7 - Tela fórum
+
+### Tela - Visualizar Assunto
+
+Na tela de visualização de um assunto, os usuários podem ver todas as respostas que foram dadas a esse tópico. Cada resposta exibe quem a postou e quando foi postada, permitindo aos usuários acompanhar as interações anteriores. Além disso, os usuários têm a opção de ordenar as respostas de acordo com diferentes critérios, como data de postagem ou popularidade. Também é possível adicionar uma nova resposta diretamente da tela, permitindo uma participação contínua na discussão do assunto.
+  
+![assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229184340978831541/EcoVida_-_Assunto.png?ex=662ec220&is=661c4d20&hm=8244d565ffa01272a8f56e4f53b96ec126413b1d5396b718538859f72442a8dc&)
+
+Figura 8 - Tela visualizar assunto
+
+### Tela - Criar Assunto
+
+Na tela de criação de assuntos, os usuários podem inserir um título e uma descrição para o tópico, fornecendo contexto e detalhes sobre o assunto em discussão. Além disso, os usuários podem optar por postar anonimamente, permitindo que compartilhem suas opiniões de forma discreta, se assim desejarem.
+  
+![criar-assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229167759116599366/EcoVida_-_Criar_Assunto.png?ex=662eb2ae&is=661c3dae&hm=c93b88d62db29d856a386f96b7beeb6e53c5c628d0f548571caccb3c7aca38ef&)
+
+Figura 9 - Tela criar assunto
+
+
+### Tela - Hábitos
+
+Na tela de hábitos, os usuários podem visualizar, gerenciar e adicionar novos hábitos sustentáveis à sua rotina diária. Além disso, os usuários podem filtrar os hábitos por categoria, permitindo que encontrem facilmente hábitos específicos.
+  
+![habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229168234306080818/EcoVida_-_Habitos.png?ex=662eb31f&is=661c3e1f&hm=acef94e2667de00d638067905b65413bbe001c080e9c8aedf03598d30e8da24e&)
+
+Figura 10 - Tela hábitos
+
+
+### Tela - Criar Hábito
+
+Na tela de criação de hábitos, existe a opção de dar um nome ao hábito, além disso, os usuários podem selecionar uma categoria para o hábito, agrupando-o com outros hábitos semelhantes e facilitando a organização e o acompanhamento de suas práticas sustentáveis. 
+
+![criar-habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229170807733882942/EcoVida_-_Criar_Habito.png?ex=662eb585&is=661c4085&hm=1b7e0c2f0a0dfd73d2e5c5899acf880320116bf15fe098f35667254e4bc9f26a&)
+
+Figura 11 - Tela criar hábito
+
+### Tela - Postos de coleta
+
+Na tela de postos de coleta, os usuários podem encontrar informações sobre locais onde podem descartar materiais recicláveis ​​ou realizar a coleta seletiva. Eles podem visualizar uma lista de postos de coleta, cada um exibindo seu nome, telefone e endereço, facilitando o acesso a esses locais. Além disso, os usuários têm a opção de utilizar uma barra de pesquisa para buscar postos de coleta específicos por nome ou localização, tornando mais fácil encontrar locais próximos a eles.
+
+![postos-de-coleta](https://cdn.discordapp.com/attachments/737069685333557319/1229175908359868518/EcoVida_-_Postos_de_Coleta.png?ex=662eba45&is=661c4545&hm=77696b7d634691d65ce43e11f2c9d936f5f752c9bfe71712010cb7477a91ef8f&)
+
+Figura 12 - Tela postos de coleta
 
 
