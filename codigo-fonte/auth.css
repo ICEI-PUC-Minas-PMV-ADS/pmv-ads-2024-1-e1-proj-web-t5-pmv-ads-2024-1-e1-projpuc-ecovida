@@ -1,0 +1,43 @@
+:root {
+  /* Tons de verde - variáveis */
+  --green-50: #f4f9f4;
+  --green-100: #eef6ee;
+  --green-200: #ddecdc;
+  --green-300: #90c38d;
+  --green-400: #82b07f;
+  --green-500: #739c71; 
+  --green-600: #6c926a;
+  --green-700: #567555;
+  --green-800: #41583f;
+  --green-900: #324431;
+
+  /* Tons de cinza - variáveis */
+  --gray-50: #f1f1f1;
+  --gray-100: #eaeaea;
+  --gray-200: #d3d3d4;
+  --gray-300: #727275;
+  --gray-400: #676769;
+  --gray-500: #5b5b5e;
+  --gray-600: #565658;
+  --gray-700: #444446;
+  --gray-800: #333335;
+  --gray-900: #282829;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--green-300) ;
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+main{
+  color: var(--gray-50);
+  margin-top: 40px;
+  }
