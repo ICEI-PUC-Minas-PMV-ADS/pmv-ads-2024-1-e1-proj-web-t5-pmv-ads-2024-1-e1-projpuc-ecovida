@@ -67,3 +67,4 @@ function cadastrar () {
     )
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
 }
+console.log('teste')
