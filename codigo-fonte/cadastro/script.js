@@ -1,7 +1,7 @@
 const usuario = document.getElementById('usuario');
 const senha = document.getElementById('senha');
 const confirmeSenha = document.getElementById('confirmeSenha');
-const form = document.getElementById('form');
+const form = document.getElementById('form-cadastro');
 
 form.addEventListener('submit', e => {
 	e.preventDefault();
@@ -14,7 +14,7 @@ function checkInputs(){
     const senhaValue = senha.value.trim();
     const confirmeSenhaValue = ConfirmeSenha.value.trim();
     
-    if(usuario.value === '' || usuario.value == null);
+    if(usuario.value === '' || usuario.value == null)
     {
         setErrorfor(usuario,'Preencha o nome de Úsuario');
     } else  { 
@@ -61,10 +61,9 @@ function cadastrar () {
 
     listaUser.push(
         {
-            userCad: usuario.value
+            userCad: usuario.value,
             senhaCad: senha.value
         }
     )
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
 }
-console.log('teste')
