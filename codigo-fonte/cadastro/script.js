@@ -12,44 +12,36 @@ form.addEventListener('submit', e => {
 function checkInputs(){
     const usuarioValue = usuario.value.trim();
     const senhaValue = senha.value.trim();
-    const confirmeSenhaValue = ConfirmeSenha.value.trim();
+    const confirmeSenhaValue = confirmeSenha.value.trim();
     
     if(usuario.value === '' || usuario.value == null)
     {
-        setErrorfor(usuario,'Preencha o nome de Úsuario');
-    } else  { 
-        setSucessfor(usuario);
-      }
+       return alert('Preencha o nome de Úsuario');
+        
+    } 
     
     if(senha.value ===''){
-        setErrorfor(senha, 'Preencha a senha');
-    } else {
-        setSucessfor(senha);
-    }
+        return  alert('Preencha a senha');
+    } 
     
     if(senha.value.lenght <= 5)
     {
-        e.preventDefault();
-        setErrorfor(senha,'Senha deve conter mais de 6 caracteres');
-    } else {
-        setSucessfor(senha);
+        
+      return  alert('Senha deve conter mais de 6 caracteres');
+    
     }
     
     if(senha.value.lenght >= 20)
     {
-        e.preventDefault();
-        setErrorfor(senha,'Senha não pode conter mais de 20 caracteres'); 
-    } else {
-        setSucessfor(senha);
-    }
+       
+        return alert('Senha não pode conter mais de 20 caracteres'); 
+    } 
 
     if(confirmeSenhaValue === ''){
-        setErrorFor(confirmeSenha, 'Preencha a Confirmação de Senha');
+      return  alert( 'Preencha a Confirmação de Senha');
     } else if(senhaValue !== confirmeSenhaValue){
-        setErrorFor(confirmeSenha, 'As senhas não conferem');
-    } else{
-        setSucessfor(confirmeSenha);
-    }
+       return alert( 'As senhas não conferem');
+    } 
 }
 
 /// local storage
