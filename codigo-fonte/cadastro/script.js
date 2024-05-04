@@ -42,13 +42,18 @@ function checkInputs(){
     } else if(senhaValue !== confirmeSenhaValue){
        return alert( 'As senhas não conferem');
     } 
+
+    return cadastrar()
 }
 
 /// local storage
 
 function cadastrar () {
-    if(validUsuario && validSenha &&validConfirmeSenha){
-        let listaUser =JSON.parse(localStorage.getItem('listaUser') || '[]')
+
+    let listaUser =JSON.parse(localStorage.getItem('listaUser') || '[]')
+    
+    if(listaUser.find(user=> user.userCad === usuario.value)){
+        return alert('Este usuário já existe!')
     }
 
     listaUser.push(
@@ -58,4 +63,7 @@ function cadastrar () {
         }
     )
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
+
+    // Limpa os campos
+    window.location.href = '/codigo-fonte/login'
 }
