@@ -8,3 +8,71 @@
   gap: 10px;
   justify-content: center;
 }
+
+.area-login{
+  display: flex;
+  height: 30vh;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.login{
+  background-color: #90C38D;
+  width: 355px;
+  height: 270px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.login form{
+  display: flex;
+  flex-direction: column;
+  width: 100%
+}
+
+.login input {
+  padding-left: 10px;
+  border-radius: 8px;
+  outline: none;
+  height: 45px;
+  border: none;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin-top: 10px
+  
+  }
+
+  .login img{
+  width: 65px;
+  height:auto;
+  justify-content: baseline;
+}
+
+.input::placeholder{
+  color: #000000;
+  font-size: 14px;
+}
+
+form [type="submit"]{
+  display: block;
+  background-color: #567555;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+p{
+color: #FFFFFF;
+}
+
+a{
+  color: #41583F;
+  text-decoration: none;
+  margin-left: 5px
+}
