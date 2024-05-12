@@ -35,7 +35,7 @@ A lista de usuários é armazenada no Local Storage como um array de objetos, on
   },
   ...
 ]
-
+```
 
 #### Instruções de acesso
 
