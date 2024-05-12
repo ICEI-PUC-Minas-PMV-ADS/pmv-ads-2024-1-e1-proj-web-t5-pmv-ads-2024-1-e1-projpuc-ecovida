@@ -22,7 +22,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
  - Rodapé - No footer da aplicação, os usuários encontram uma seção "Sobre" que oferece uma breve descrição do projeto EcoVida. Além disso, há links para outras telas importantes. Esses links facilitam a navegação entre os recursos da aplicação.
 
 
-![prototipo](https://cdn.discordapp.com/attachments/737069685333557319/1229163330095153213/EcoVida_-_baixa_qualidade.png?ex=662eae8e&is=661c398e&hm=b0d4f06c9c100479cf11fd56de3ccae84bebbb5af677cc4579847c8fd400d843&)
+![prototipo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20baixa%20qualidade.png)
 
 Figura 2 - Estrutura padrão do site
 
@@ -41,7 +41,7 @@ A tela de Login apresenta campos para a inserção do usuário e da senha.
 
 A tela de cadastro oferece campos para que o usuário insira seu nome de usuário, senha e confirme a senha.
 
-![cadastro](https://cdn.discordapp.com/attachments/737069685333557319/1229173431959027865/EcoVida_-_Cadastro.png?ex=662eb7f7&is=661c42f7&hm=11cf4af47d98eff8e8551ebfcfea799f8ae2b60cb54ef54472eea6adfb1c3b2b&)
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Cadastro.png)
 
   
  Figura 4 - Tela de cadastro
@@ -63,7 +63,7 @@ Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome 
 
 A tela inicial do EcoVida oferece acesso rápido a recursos essenciais para explorar e participar da comunidade de sustentabilidade. Aqui, os usuários podem participar de fóruns de discussão, adotar hábitos sustentáveis e localizar postos de coleta para promover a conscientização ambiental.
   
-![homepage](https://cdn.discordapp.com/attachments/737069685333557319/1229164881937436682/EcoVida_-_Home.png?ex=662eb000&is=661c3b00&hm=0aa671d43e4361a57f0e463cd25070ddc1bdcb4813b20fce3345657685d151df&)
+![homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Home.png)
 
 Figura 6 - Tela home page
 
@@ -72,7 +72,7 @@ Figura 6 - Tela home page
 
 A tela do fórum no EcoVida é o centro das discussões e interações da comunidade sobre questões ambientais. Nesta tela, os usuários podem visualizar uma lista de tópicos de discussão, ordená-los e filtrá-los de acordo com suas preferências. Cada tópico exibe informações importantes, como o número de visualizações, respostas, autor e data de publicação, permitindo aos usuários identificar rapidamente as discussões mais relevantes.
   
-![forum](https://cdn.discordapp.com/attachments/737069685333557319/1229166324828082186/EcoVida_-_Forum.png?ex=662eb158&is=661c3c58&hm=d4103198520a9d0fe944524ef1f968aec37e7aa2d795b1603d6076f64cf9fae5&)
+![forum](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20F%C3%B3rum.png)
 
 Figura 7 - Tela fórum
 
@@ -80,7 +80,7 @@ Figura 7 - Tela fórum
 
 Na tela de visualização de um assunto, os usuários podem ver todas as respostas que foram dadas a esse tópico. Cada resposta exibe quem a postou e quando foi postada, permitindo aos usuários acompanhar as interações anteriores. Além disso, os usuários têm a opção de ordenar as respostas de acordo com diferentes critérios, como data de postagem ou popularidade. Também é possível adicionar uma nova resposta diretamente da tela, permitindo uma participação contínua na discussão do assunto.
   
-![assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229184340978831541/EcoVida_-_Assunto.png?ex=662ec220&is=661c4d20&hm=8244d565ffa01272a8f56e4f53b96ec126413b1d5396b718538859f72442a8dc&)
+![assunto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Assunto.png)
 
 Figura 8 - Tela visualizar assunto
 
@@ -88,7 +88,7 @@ Figura 8 - Tela visualizar assunto
 
 Na tela de criação de assuntos, os usuários podem inserir um título e uma descrição para o tópico, fornecendo contexto e detalhes sobre o assunto em discussão. Além disso, os usuários podem optar por postar anonimamente, permitindo que compartilhem suas opiniões de forma discreta, se assim desejarem.
   
-![criar-assunto](https://cdn.discordapp.com/attachments/737069685333557319/1229167759116599366/EcoVida_-_Criar_Assunto.png?ex=662eb2ae&is=661c3dae&hm=c93b88d62db29d856a386f96b7beeb6e53c5c628d0f548571caccb3c7aca38ef&)
+![criar-assunto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Criar%20Assunto.png)
 
 Figura 9 - Tela criar assunto
 
@@ -97,7 +97,7 @@ Figura 9 - Tela criar assunto
 
 Na tela de hábitos, os usuários podem visualizar, gerenciar e adicionar novos hábitos sustentáveis à sua rotina diária. Além disso, os usuários podem filtrar os hábitos por categoria, permitindo que encontrem facilmente hábitos específicos.
   
-![habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229168234306080818/EcoVida_-_Habitos.png?ex=662eb31f&is=661c3e1f&hm=acef94e2667de00d638067905b65413bbe001c080e9c8aedf03598d30e8da24e&)
+![habitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20H%C3%A1bitos.png)
 
 Figura 10 - Tela hábitos
 
@@ -106,7 +106,7 @@ Figura 10 - Tela hábitos
 
 Na tela de criação de hábitos, existe a opção de dar um nome ao hábito, além disso, os usuários podem selecionar uma categoria para o hábito, agrupando-o com outros hábitos semelhantes e facilitando a organização e o acompanhamento de suas práticas sustentáveis. 
 
-![criar-habitos](https://cdn.discordapp.com/attachments/737069685333557319/1229170807733882942/EcoVida_-_Criar_Habito.png?ex=662eb585&is=661c4085&hm=1b7e0c2f0a0dfd73d2e5c5899acf880320116bf15fe098f35667254e4bc9f26a&)
+![criar-habitos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Criar%20H%C3%A1bito.png)
 
 Figura 11 - Tela criar hábito
 
@@ -114,7 +114,7 @@ Figura 11 - Tela criar hábito
 
 Na tela de postos de coleta, os usuários podem encontrar informações sobre locais onde podem descartar materiais recicláveis ​​ou realizar a coleta seletiva. Eles podem visualizar uma lista de postos de coleta, cada um exibindo seu nome, telefone e endereço, facilitando o acesso a esses locais. Além disso, os usuários têm a opção de utilizar uma barra de pesquisa para buscar postos de coleta específicos por nome ou localização, tornando mais fácil encontrar locais próximos a eles.
 
-![postos-de-coleta](https://cdn.discordapp.com/attachments/737069685333557319/1229175908359868518/EcoVida_-_Postos_de_Coleta.png?ex=662eba45&is=661c4545&hm=77696b7d634691d65ce43e11f2c9d936f5f752c9bfe71712010cb7477a91ef8f&)
+![postos-de-coleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Postos%20de%20Coleta.png)
 
 Figura 12 - Tela postos de coleta
 
