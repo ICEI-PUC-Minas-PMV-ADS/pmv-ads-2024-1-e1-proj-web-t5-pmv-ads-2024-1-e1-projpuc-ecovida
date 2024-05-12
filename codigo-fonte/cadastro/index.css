@@ -1,13 +1,4 @@
-#form-cadastro{
-  background-color: var(--gray-200);
-  padding: 20px;
-  align-self: center;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-}
+
 
 .area-login{
   display: flex;
@@ -35,9 +26,9 @@
   width: 100%
 }
 
-.login input {
+.login input, button {
   padding-left: 10px;
-  border-radius: 8px;
+  border-radius: 6px;
   outline: none;
   height: 45px;
   border: none;
@@ -58,21 +49,25 @@
   font-size: 14px;
 }
 
-form [type="submit"]{
-  display: block;
-  background-color: #567555;
-  font-size: 17px;
-  font-weight: bold;
-  text-transform: uppercase;
-  cursor: pointer;
-}
+
 
 p{
 color: #FFFFFF;
+margin: 6px;
 }
 
-a{
-  color: #41583F;
-  text-decoration: none;
-  margin-left: 5px
+
+
+@media (max-width: 768px) {
+    
+  .login input, button {
+    
+    height: 35px;
+    
+    }
+
+    p{
+      font-size: 14px;
+    }
+
 }
