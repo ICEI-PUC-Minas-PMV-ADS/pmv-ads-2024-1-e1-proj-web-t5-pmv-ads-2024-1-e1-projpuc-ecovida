@@ -4,7 +4,7 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ## Tela de Cadastro
 
-![Tela de Cadastro](https://media.discordapp.net/attachments/737069685333557319/1239294580998799451/Cadastro_tela_feito.png?ex=66426685&is=66411505&hm=d0516c900c0beb06a2362430372f5dea2d1d09776cf6b6b87432cd60a2e804f8&=&format=webp&quality=lossless&width=980&height=592)
+![Tela de Cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/Cadastro_tela_feito.png)
 
 #### Requisito atendido
 
