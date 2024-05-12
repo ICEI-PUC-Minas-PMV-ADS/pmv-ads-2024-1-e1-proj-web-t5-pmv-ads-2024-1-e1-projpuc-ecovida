@@ -17,7 +17,8 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 #### Artefatos da funcionalidade
 
 - HTML: `index.html`
-- CSS: `style.css`
+- CSS: `index.css`
+- JS: `script.js`
 
 #### Estrutura de Dados
 
