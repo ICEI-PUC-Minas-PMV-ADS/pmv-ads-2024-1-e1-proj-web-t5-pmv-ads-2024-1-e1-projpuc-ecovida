@@ -58,15 +58,15 @@ function cadastrar () {
 
     let listaUser =JSON.parse(localStorage.getItem('listaUser') || '[]')
     
-    if(listaUser.find(user=> user.userCad === usuario.value)){
+    if(listaUser.find(user=> user.NM_User === usuario.value)){
         btnCadastro.disabled = false
         return alert('Este usuário já existe!')
     }
 
     listaUser.push(
         {
-            userCad: usuario.value,
-            senhaCad: senha.value
+            NM_User: usuario.value,
+            TX_Password: senha.value
         }
     )
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
