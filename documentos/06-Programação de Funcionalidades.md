@@ -2,43 +2,52 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+## Tela de Cadastro
 
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
+![Tela de Cadastro](https://media.discordapp.net/attachments/737069685333557319/1239294580998799451/Cadastro_tela_feito.png?ex=66426685&is=66411505&hm=d0516c900c0beb06a2362430372f5dea2d1d09776cf6b6b87432cd60a2e804f8&=&format=webp&quality=lossless&width=980&height=592)
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+[RNF-03]: A aplicação deve ser responsiva, funcionando de forma eficaz em dispositivos móveis e desktops.
 
+[RNF-04]: A aplicação deve ter tempos de resposta rápidos para manter uma experiência fluida.
+
+[RNF-05]: A solução deve ser desenvolvida utilizando tecnologias atuais e de fácil manutenção.
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
+- HTML: `index.html`
+- CSS: `style.css`
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+A lista de usuários é armazenada no Local Storage como um array de objetos, onde cada objeto representa um usuário e contém os seguintes campos:
+
+```json
+[
+  {
+    "NM_User": "string",
+    "TX_Password": "string"
+  },
+  {
+    "NM_User": "string",
+    "TX_Password": "string"
+  },
+  ...
+]
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
-
+Para acessar a tela de cadastro, abra o arquivo `index.html` dentro de codigo-fonte/cadastro em um navegador web.
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Desenvolvimento da estrutura HTML e estilos CSS:
+- Ryan Aragão
 
+Implementação do formulário de cadastro:
+- Claudius Suetonio de Abreu Domingues Junior
 
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
+Validação e cadastro do usuário:
+- Carine Nascimento Marques
