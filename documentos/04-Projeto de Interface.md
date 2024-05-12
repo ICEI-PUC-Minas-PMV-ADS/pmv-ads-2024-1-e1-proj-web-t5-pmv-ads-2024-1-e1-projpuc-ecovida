@@ -6,7 +6,7 @@
 
 O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/proto/oR3sWLwY6E2zGtUJguA1U8/EcoVida---Visualiza%C3%A7%C3%A3o?type=design&node-id=2-21&t=mcLMDAikljFHkgV2-1&scaling=min-zoom&page-id=0%3A1&mode=design).
 
-  ![fluxo-usuario](https://cdn.discordapp.com/attachments/737069685333557319/1229185910659088527/EcoVida_-_Fluxo_do_Usuario.png?ex=662ec396&is=661c4e96&hm=32cf959fb4f2640791194d6931ea176186d5df79d253feca218de7eaa37f994b&)
+  ![fluxo-usuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/EcoVida%20-%20Fluxo%20do%20Usu%C3%A1rio.png)
 
 Figura 1 - Fluxo do usuário
 
@@ -32,7 +32,7 @@ Figura 2 - Estrutura padrão do site
 
 A tela de Login apresenta campos para a inserção do usuário e da senha.
   
-![login](https://media.discordapp.net/attachments/1038811979856494602/1226999681372913755/Tela_login.png?ex=6626cf80&is=66145a80&hm=b74b99bea5f06c8b28cb07fffdb6d0091638b48bb33ca2b9009e31971665b9e7&=&format=webp&quality=lossless&width=906&height=565)
+![login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/Tela_login.png)
 
   
  Figura 3 - Tela de login
@@ -50,7 +50,7 @@ A tela de cadastro oferece campos para que o usuário insira seu nome de usuári
 
 Na tela de redefinição de senha, o usuário é solicitado a fornecer seu nome de usuário e inserir a nova senha duas vezes para confirmá-la. Após concluir o processo de redefinição, o usuário será redirecionado automaticamente para a tela de login.
   
-![redefinir-senha](https://media.discordapp.net/attachments/1038811979856494602/1226999233610121276/redefinir_tela.png?ex=6626cf15&is=66145a15&hm=6d6affe6290f9d1d2f33a7049b43d66b53fcfe01cc1b34aa0f6ef970930f9ade&=&format=webp&quality=lossless&width=901&height=565)
+![redefinir-senha](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/img/redefinir_tela.png)
 
   
  Figura 5 - Tela  de redefinir senha
