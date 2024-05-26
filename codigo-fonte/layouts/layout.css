@@ -56,9 +56,21 @@ li {
 #navMobile {
   display: none;
   grid-area: navMobile;
-  background-color: blue;
+  padding: 20px;
+  background-color: var(--green-300);
   /* Example background color */
 
+}
+
+#openNavBtn{
+  background-color: transparent;
+  border: none;
+
+}
+
+#img-icon{
+  width: 50px;
+  height: 50px;
 }
 
 #navMain {
@@ -88,7 +100,6 @@ li {
 
 main {
   grid-area: content;
-  background-color: purple;
   margin-left: auto;
   width: calc(100% - 244px);
   height: 1500px;
@@ -191,7 +202,7 @@ h3 {
 
   #navMobile {
     display: flex;
-
+    justify-content:space-between;
   }
 
   #navMain {
