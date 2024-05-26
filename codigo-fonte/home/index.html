@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../layouts/layout.css">
+  <title>EcoVida = Home</title>
+</head>
+
+<body>
+
+  <div id="pageContent" style="display: none;">
+    <h2>Welcome to Page 1</h2>
+    <p>This is the content for Page 1.</p>
+  </div>
+
+
+
+  <script>
+    // Load the layout HTML
+    fetch('../layouts/layout.html')
+      .then(response => response.text())
+      .then(layout => {
+        document.body.innerHTML += layout;
+      })
+      .then(() => {
+        // Ensure layout.js runs after the layout is loaded
+        const layoutScript = document.createElement('script');
+        layoutScript.src = '../layouts/layout.js';
+        layoutScript.onload = () => {
+          // Load page.js as the last component
+          const pageScript = document.createElement('script');
+          pageScript.src = 'index.js';
+          document.body.appendChild(pageScript);
+        };
+        document.body.appendChild(layoutScript);
+      })
+      .catch(error => console.error('Error loading layout:', error));
+  </script>
+</body>
+
+</html>
