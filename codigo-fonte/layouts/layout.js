@@ -2,16 +2,6 @@ const openNavBtn = document.getElementById('openNavBtn');
 const navMain = document.getElementById('navMain');
 const shadow = document.getElementById('shadow');
 
-// Function to load a script dynamically
-function loadScript(src) {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = src;
-    script.onload = resolve;
-    script.onerror = reject;
-    document.head.appendChild(script);
-  });
-}
 
 // Function to inject content and load page-specific script
 function injectContentAndScript(contentElementId, scriptSrc) {
@@ -20,13 +10,7 @@ function injectContentAndScript(contentElementId, scriptSrc) {
   if (contentElement) {
     const mainContent = document.getElementById('content');
     mainContent.innerHTML = contentElement.innerHTML;
-    if (scriptSrc) {
-      loadScript(scriptSrc).then(() => {
-        console.log(`${scriptSrc} loaded successfully.`);
-      }).catch((error) => {
-        console.error(`Failed to load ${scriptSrc}:`, error);
-      });
-    }
+    
   } else {
     console.error(`No content element found with ID: ${contentElementId}`);
   }
@@ -78,4 +62,4 @@ window.onresize = ajustNavBar
 
 
 // Inject content and load the page-specific script
-injectContentAndScript('page-content', 'index.js');
+injectContentAndScript('page-content');
