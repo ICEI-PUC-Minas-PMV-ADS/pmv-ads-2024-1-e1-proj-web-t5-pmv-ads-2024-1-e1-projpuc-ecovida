@@ -62,4 +62,4 @@ window.onresize = ajustNavBar
 
 
 // Inject content and load the page-specific script
-injectContentAndScript('page-content');
+injectContentAndScript('pageContent');
