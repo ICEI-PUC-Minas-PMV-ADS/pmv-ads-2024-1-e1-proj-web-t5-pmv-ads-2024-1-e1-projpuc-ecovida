@@ -4,7 +4,7 @@ const shadow = document.getElementById('shadow');
 
 
 // Function to inject content and load page-specific script
-function injectContentAndScript(contentElementId, scriptSrc) {
+function injectContentAndScript(contentElementId) {
   const contentElement = document.getElementById(contentElementId);
 
   if (contentElement) {
