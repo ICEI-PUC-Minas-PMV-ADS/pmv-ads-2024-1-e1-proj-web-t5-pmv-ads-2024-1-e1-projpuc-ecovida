@@ -21,7 +21,7 @@ openNavBtn.addEventListener('click', function () {
   const navStyle = window.getComputedStyle(navMain);
   const navWidth = navStyle.getPropertyValue('width');
   if (parseInt(navWidth) === 0) {
-    navMain.style.width = '100px';
+    navMain.style.width = '244px';
     shadow.style.display = 'block'
   } else {
     navMain.style.width = '0px';
@@ -43,7 +43,7 @@ function ajustNavBar() {
 
   if (window.innerWidth >= 768) {
     if (parseInt(navWidth) === 0) {
-      navMain.style.width = '100px';
+      navMain.style.width = '244px';
     }
   } else {
     if (shadowDisplay == 'none') {
