@@ -77,9 +77,11 @@ li {
   grid-area: navMain;
   width: 244px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 30;
   transition: width 0.5s;
-  background-color: red;
+  background-color: var(--green-300);
   top: 0;
   left: 0;
   height: 100vh;
@@ -190,6 +192,8 @@ h3 {
 
 
 
+
+
 @media (max-width: 768px) {
 
   h3 {
@@ -231,4 +235,154 @@ h3 {
   }
 
 
+}
+
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #90C38D;
+  height: 100vh;
+  border-radius: 0px 18px 18px 0px;
+  position: relative;
+  transition: all .5s;
+  min-width: 82px;
+  z-index: 2;
+}
+
+#sidebar_content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+#user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+#user_avatar {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#user_infos {
+  display: flex;
+  flex-direction: column;
+}
+
+#user_infos span:last-child {
+  color: #6b6b6b;
+  font-size: 12px;
+}
+
+#side_items {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+.side-item {
+  border-radius: 8px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.side-item.active {
+  background-color: #324431;
+}
+
+.side-item:hover:not(.active),
+#logout_btn:hover {
+  background-color: #e3e9f7;
+}
+
+.side-item a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #324431;
+}
+
+.side-item.active a {
+  color: #324431;
+}
+
+.side-item a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+#logout {
+  border-top: 1px solid #324431;
+  padding: 12px;
+}
+
+#logout_btn {
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  text-align: start;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#open_btn {
+  border: none;
+  padding: 12px;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-radius: 8px;
+  text-align: start;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+#open_btn_icon {
+  transition: transform .3s ease;
+}
+
+.open-sidebar #open_btn_icon {
+  transform: rotate(180deg);
+}
+
+
+
+#sidebar.open-sidebar {
+  min-width: 15%;
+}
+
+#sidebar.open-sidebar .item-description {
+  width: 150px;
+  height: auto;
+}
+
+#sidebar.open-sidebar .side-item a {
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+#Conta{
+display: flex;
+justify-content: center;
+width: 100%;
 }
