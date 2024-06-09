@@ -13,7 +13,6 @@ O objetivo geral deste projeto é desenvolver uma aplicação web que facilite a
 * Carine Nascimento Marques
 * Claudius Suetonio de Abreu Domingues Junior
 * Janaina Esteves de Faria
-* Priscila Roque Batista Dias
 * Ryan Aragão
 * Wesley Duarte da Silva
 
