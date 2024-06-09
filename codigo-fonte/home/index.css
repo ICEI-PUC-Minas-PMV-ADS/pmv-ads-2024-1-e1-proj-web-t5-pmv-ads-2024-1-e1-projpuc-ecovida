@@ -19,6 +19,13 @@ h2{
   color: var(--green-200);
 }
 
+
+a{
+  text-decoration: none;
+  color: var(--green-900);
+  font-family: "Comfortaa", sans-serif;
+}
+
 #img-box{
   position: relative;
 }
@@ -31,12 +38,86 @@ h2{
   color: var(--green-300);
 }
 
-@media (max-width: 768px) {
+#publi-box{
+display: grid;
+grid-template-columns: 1fr 40%;
+font-family: "Comfortaa", sans-serif;
+gap: 40px;
+padding: 30px;
+}
+
+#box-1{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h3{
+  color: var(--green-900);
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.princ-publi-box{
+  display: grid;
+  grid-template-areas: "img title" "img para";
+  height: 100%;
+  gap: 10px;
+
+}
+
+.princ-publi-img{
+  grid-area: img;
+  width: min-content;
+}
+
+.princ-publi-title{
+  grid-area: title;
+}
+
+
+.princ-publi-para{
+  grid-area: para;
+}
+
+@media (max-width: 1680px) {
+  #publi-box{
+    grid-template-columns: 1fr;
+    }
+
+    h2{
+      font-size: 40px;
+    }
+
+  #link-box{
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
   h2{
     font-size: 20px;
   }
 
+  .princ-publi-para{
+    font-size: 10px;
+   }
+
   #title{
     font-size: 40px;
   }
+
+ 
+
+  
+
+  
 }
+

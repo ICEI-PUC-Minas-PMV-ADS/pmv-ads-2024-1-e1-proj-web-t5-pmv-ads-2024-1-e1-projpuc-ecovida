@@ -102,7 +102,6 @@ main {
   grid-area: content;
   margin-left: auto;
   width: calc(100% - 244px);
-  height: 1500px;
   display: flex;
   flex-direction: column;
   /* Example padding */
