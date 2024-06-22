@@ -1,0 +1,23 @@
+message: Please cite this software using these metadata.
+title: PUC - EcoVida
+authors:
+  - family-names: Aragão
+    given-names: Ryan
+  - family-names: Marques
+    given-names: Carine
+  - family-names: Esteves
+    given-names: Janaina
+  - family-names: Júnior
+    given-names: Claudius
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Rodrigo Costa
+    given-names: Marco
+keywords:
+  - Ambiente
+  - Sustentabilidade
+  - Natureza
+  - Preservação
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida
+version: 1.0.0
+date-released: 2024-06-22
