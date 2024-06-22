@@ -28,7 +28,7 @@
       layoutScript.onload = () => {
         // Load page.js as the last component
         const pageScript = document.createElement('script');
-        pageScript.src = 'index.js';
+        pageScript.src = 'script.js';
         document.body.appendChild(pageScript);
       };
       document.body.appendChild(layoutScript);

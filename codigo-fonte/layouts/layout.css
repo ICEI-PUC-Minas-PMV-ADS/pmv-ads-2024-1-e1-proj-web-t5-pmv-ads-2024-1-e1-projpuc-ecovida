@@ -43,6 +43,12 @@ body {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color: var(--green-900);
+  font-family: "Comfortaa", sans-serif;
+}
+
 h3 {
   font-size: 1.3rem;
 }
