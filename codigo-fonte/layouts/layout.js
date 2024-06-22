@@ -1,6 +1,8 @@
 const openNavBtn = document.getElementById('openNavBtn');
 const navMain = document.getElementById('navMain');
 const shadow = document.getElementById('shadow');
+const logoutBtn = document.getElementById('logout_btn');
+
 
 
 // Function to inject content and load page-specific script
@@ -27,6 +29,11 @@ openNavBtn.addEventListener('click', function () {
     navMain.style.width = '0px';
     shadow.style.display = 'none';
   }
+});
+
+logoutBtn.addEventListener('click', function () {
+  localStorage.removeItem('user_logged')
+   window.location.href = '/codigo-fonte/login'
 });
 
 shadow.addEventListener('click', function () {
