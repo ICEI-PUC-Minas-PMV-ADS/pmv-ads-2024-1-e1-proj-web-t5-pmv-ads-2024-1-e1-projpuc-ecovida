@@ -10,7 +10,7 @@ Sendo assim, a equipe está organizada da seguinte maneira:
 
 - Scrum Master: Ryan Aragão.
 - Product Owner: Janaina Esteves de Faria.
-- Equipe de Desenvolvimento: Carine Nascimento Marques, Claudius Suetonio de Abreu Domingues Junior, Janaina Esteves de Faria, Ryan Aragão e Wesley Duarte da Silva.
+- Equipe de Desenvolvimento: Carine Nascimento Marques, Claudius Suetonio de Abreu Domingues Junior, Janaina Esteves de Faria e Ryan Aragão.
 - Equipe de Design: Carine Nascimento Marques, Ryan Aragão e Claudius Suetonio de Abreu Domingues Junior.
 
 ### Processo
