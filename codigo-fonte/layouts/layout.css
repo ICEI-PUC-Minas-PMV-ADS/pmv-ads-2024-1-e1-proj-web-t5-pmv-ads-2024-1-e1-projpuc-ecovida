@@ -338,6 +338,11 @@ h3 {
   border-top: 1px solid #324431;
   padding: 12px;
 }
+.form-control{
+  background-color: var(--gray-100);
+  border: none;
+  padding: 10px;
+}
 
 #logout_btn {
   font-family: "Comfortaa", sans-serif;
