@@ -33,7 +33,7 @@ openNavBtn.addEventListener('click', function () {
 
 logoutBtn.addEventListener('click', function () {
   localStorage.removeItem('user_logged')
-   window.location.href = '/codigo-fonte/login'
+   window.location.href = '/puc-eco-vida/login'
 });
 
 shadow.addEventListener('click', function () {

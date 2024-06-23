@@ -13,7 +13,7 @@
   // Function to handle redirection if not logged in
   function handleAuthentication() {
       if (!checkLoginStatus()) {
-          window.location.href = '/codigo-fonte/login'; // Redirect to login page
+          window.location.href = '/puc-eco-vida/login'; // Redirect to login page
       } else {
           // Load the layout HTML
   fetch('../layouts/layout.html')

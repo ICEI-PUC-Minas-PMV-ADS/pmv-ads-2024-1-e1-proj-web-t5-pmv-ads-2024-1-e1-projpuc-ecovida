@@ -72,5 +72,5 @@ function cadastrar () {
     localStorage.setItem('listaUser', JSON.stringify(listaUser))
 
     
-    window.location.href = '/codigo-fonte/login'
+    window.location.href = '/puc-eco-vida/login'
 }

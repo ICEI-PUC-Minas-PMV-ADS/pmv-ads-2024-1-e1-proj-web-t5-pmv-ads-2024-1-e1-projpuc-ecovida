@@ -13,7 +13,7 @@
   // Function to handle redirection if not logged in
   function handleAuthentication() {
       if (!checkLoginStatus()) {
-          window.location.href = '/codigo-fonte/login'; // Redirect to login page
+          window.location.href = '/puc-eco-vida/login'; // Redirect to login page
       } else {
           // Load the layout HTML
   fetch('../layouts/layout.html')
@@ -78,7 +78,7 @@
       const topic = getTopicById(id_assunto);
   
       if (!topic) {
-        window.location.href = '/codigo-fonte/forum'
+        window.location.href = '/puc-eco-vida/forum'
         return;
       }
   
@@ -165,7 +165,7 @@
         return alert('Sua resposta deve conter ao menos 5 caracteres!')
       }
       if (!userLogged) {
-        window.location.href = '/codigo-fonte/login';
+        window.location.href = '/puc-eco-vida/login';
         return;
       }
   
@@ -189,7 +189,7 @@
       localStorage.setItem('topic_list', JSON.stringify(topicList));
   
       document.getElementById('resposta').value = '';
-     window.location.href = `/codigo-fonte/assunto/?id_assunto=${id_assunto}`
+     window.location.href = `/puc-eco-vida/assunto/?id_assunto=${id_assunto}`
     }
 
     

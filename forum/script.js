@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         topicElement.classList.add('topic');
 
         const titleLink = document.createElement('a');
-        titleLink.href = `/codigo-fonte/assunto/?id_assunto=${topic.ID_Assunto}`;
+        titleLink.href = `/puc-eco-vida/assunto/?id_assunto=${topic.ID_Assunto}`;
         titleLink.textContent = topic.TX_Titulo;
         titleLink.classList.add('title-link');
 
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
   function handleAuthentication() {
    
     if (!checkLoginStatus()) {
-      window.location.href = '/codigo-fonte/login'; // Redirect to login page
+      window.location.href = '/puc-eco-vida/login'; // Redirect to login page
     } else {
       // Load the layout HTML
       fetch('../layouts/layout.html')
@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let userName = JSON.parse(localStorage.getItem('user_logged'))
   
     if(!userName) {
-      window.location.href = '/codigo-fonte/login'
+      window.location.href = '/puc-eco-vida/login'
     }
   
     if(title.length < 10) return alert('Seu título deve ter no mínimo 10 caracteres.')
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function() {
     localStorage.setItem('topic_list', JSON.stringify(topicList));
     
     hideModal();
-    window.location.href = '/codigo-fonte/forum'
+    window.location.href = '/puc-eco-vida/forum'
   }
 })
 
