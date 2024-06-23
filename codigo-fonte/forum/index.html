@@ -16,7 +16,7 @@
     
       <div class="header">
         <h1>Todos Assuntos</h1>
-        <button class="btn-new-topic">Criar Assunto</button>
+        <button class="btn-new-topic" onclick="showModal()">Criar Assunto</button>
       </div>
       <div class="search-bar">
         
@@ -24,17 +24,33 @@
       <div class="topics-list">
         <!-- Topics will be dynamically loaded here -->
       </div>
-      <!-- <div class="pagination">
-        <span class="page-number">1</span>
-        <span class="page-number">2</span>
-        <span class="page-number">3</span>
-        <span class="page-number">...</span>
-        <span class="page-number">25</span>
-      </div> -->
-
+ 
+     
   </div>
 
-
+  <div id="modal" class="modal" >
+    <div class="modal-content">
+      
+      <div class="modal-header">
+      <h2 class="title-modal">Criar Assunto</h2>
+      <span class="close" onclick="hideModal()">&times;</span>
+    </div>
+      <form onsubmit="createAssunto(event)" id="createTopicForm">
+        <div class="box-input">
+        <label for="title">Título do Assunto</label>
+        <input class="form-control" type="text" name="title" required>
+      </div>
+    <div class="box-input">  
+      <label for="content">Descrição do Assunto</label>
+        <textarea class="form-control" name="content"  required></textarea>
+      </div>
+      <div class="box-btn">
+        <button id="close-modal"  onclick="hideModal()" type="button">Fechar</button>
+        <button class="btn-new-topic" type="submit">Salvar</button>
+      </div>
+      </form>
+    </div>
+  </div>
 
   <script src="./script.js"></script>
 </body>

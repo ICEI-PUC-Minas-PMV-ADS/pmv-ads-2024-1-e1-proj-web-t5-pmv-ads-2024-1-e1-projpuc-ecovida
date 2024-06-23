@@ -1,6 +1,5 @@
-const urlParams = new URLSearchParams(window.location.search);
-const id_assunto = urlParams.get('id_assunto');
-
+// const urlParams = new URLSearchParams(window.location.search);
+// const id_assunto = urlParams.get('id_assunto');
 
 document.addEventListener("DOMContentLoaded", function() {
   function checkLoginStatus() {
@@ -43,94 +42,26 @@ document.addEventListener("DOMContentLoaded", function() {
   // Function to load topics from localStorage and render them
   function loadTopics() {
     // const topicList = JSON.parse(localStorage.getItem('topic_list')) || [];
-    const topicList = [
-      {
-        "ID_Assunto": 1,
-        "TX_Titulo": "Impacto das mudanças climáticas na biodiversidade local",
-        "TX_Conteudo": "Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões.",
-        "NM_Usuario_Criacao": "João Silva",
-        "DH_Criacao": "2024-06-01T12:00:00Z",
-        "Arr_Respostas": [
-          {
-            "TX_Resposta": "Este é um tópico muito importante. A biodiversidade está realmente em risco devido às mudanças climáticas.",
-            "NM_Usuario": "Maria Oliveira",
-            "DH_Criacao": "2024-06-02T08:30:00Z"
-          },
-          {
-            "TX_Resposta": "Concordo! Precisamos de mais iniciativas para proteger nosso meio ambiente.",
-            "NM_Usuario": "Carlos Santos",
-            "DH_Criacao": "2024-06-02T09:00:00Z"
-          }
-        ]
-      },
-      {
-        "ID_Assunto": 1,
-        "TX_Titulo": "Impacto das mudanças climáticas na biodiversidade local",
-        "TX_Conteudo": "Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões.",
-        "NM_Usuario_Criacao": "João Silva",
-        "DH_Criacao": "2024-06-01T12:00:00Z",
-        "Arr_Respostas": [
-          {
-            "TX_Resposta": "Este é um tópico muito importante. A biodiversidade está realmente em risco devido às mudanças climáticas.",
-            "NM_Usuario": "Maria Oliveira",
-            "DH_Criacao": "2024-06-02T08:30:00Z"
-          },
-          {
-            "TX_Resposta": "Concordo! Precisamos de mais iniciativas para proteger nosso meio ambiente.",
-            "NM_Usuario": "Carlos Santos",
-            "DH_Criacao": "2024-06-02T09:00:00Z"
-          }
-        ]
-      },
-      {
-        "ID_Assunto": 1,
-        "TX_Titulo": "Impacto das mudanças climáticas na biodiversidade local",
-        "TX_Conteudo": "Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões.",
-        "NM_Usuario_Criacao": "João Silva",
-        "DH_Criacao": "2024-06-01T12:00:00Z",
-        "Arr_Respostas": [
-          {
-            "TX_Resposta": "Este é um tópico muito importante. A biodiversidade está realmente em risco devido às mudanças climáticas.",
-            "NM_Usuario": "Maria Oliveira",
-            "DH_Criacao": "2024-06-02T08:30:00Z"
-          },
-          {
-            "TX_Resposta": "Concordo! Precisamos de mais iniciativas para proteger nosso meio ambiente.",
-            "NM_Usuario": "Carlos Santos",
-            "DH_Criacao": "2024-06-02T09:00:00Z"
-          }
-        ]
-      },
-      {
-        "ID_Assunto": 1,
-        "TX_Titulo": "Impacto das mudanças climáticas na biodiversidade local",
-        "TX_Conteudo": "Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões. Discussão sobre como as mudanças climáticas estão afetando a biodiversidade em diferentes regiões.",
-        "NM_Usuario_Criacao": "João Silva",
-        "DH_Criacao": "2024-06-01T12:00:00Z",
-        "Arr_Respostas": [
-          {
-            "TX_Resposta": "Este é um tópico muito importante. A biodiversidade está realmente em risco devido às mudanças climáticas.",
-            "NM_Usuario": "Maria Oliveira",
-            "DH_Criacao": "2024-06-02T08:30:00Z"
-          },
-          {
-            "TX_Resposta": "Concordo! Precisamos de mais iniciativas para proteger nosso meio ambiente.",
-            "NM_Usuario": "Carlos Santos",
-            "DH_Criacao": "2024-06-02T09:00:00Z"
-          }
-        ]
-      }
-      
-    ]
+    const topicList =  JSON.parse(localStorage.getItem('topic_list')) || [];
+    
     const topicsContainer = document.querySelector('.topics-list');
     if (topicsContainer) {
-      topicsContainer.innerHTML = '';
+      
+      topicsContainer.innerHTML = ''
       const searchBar = document.querySelector(".search-bar")
       const assuntos = document.createElement('span')
       assuntos.classList.add('assunto')
       assuntos.textContent = `${topicList.length} assuntos`
       searchBar.appendChild(assuntos)
 
+      if(topicList.length === 0) {
+       const span = document.createElement('span')
+       span.textContent = 'Nenhum assunto criado!'
+       span.style.textAlign = 'center'
+       span.style.color = 'red'
+       span.style.fontWeight = '500'
+        return topicsContainer.appendChild(span)
+      }
       topicList.map((topic, index) => {
         
         const topicElement = document.createElement('div');
@@ -186,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
           
         };
         document.body.appendChild(layoutScript);
-        console.log(id_assunto)
+       
         loadTopics()
       })
       .catch(error => console.error('Error loading layout:', error));}
@@ -194,4 +125,49 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Call the authentication handler
   handleAuthentication();
-});
+
+  window.showModal = function() {
+    document.getElementById('modal').style.display = 'block';
+  }
+  
+  // Hide modal
+  window.hideModal = function() {
+    document.getElementById('modal').style.display = 'none';
+  }
+
+  window.createAssunto = function(event){
+    event.preventDefault();
+    
+    const data = new FormData(event.target)
+    const title = data.get('title')
+    const content = data.get('content')
+    let userName = JSON.parse(localStorage.getItem('user_logged'))
+  
+    if(!userName) {
+      window.location.href = '/codigo-fonte/login'
+    }
+  
+    if(title.length < 10) return alert('Seu título deve ter no mínimo 10 caracteres.')
+  
+      if(content.length < 10) return alert('Seu assunto deve ter no mínimo 10 caracteres.')
+  
+    const newTopic = {
+      "ID_Assunto": Math.floor(Math.random() * 1000000), // Generate a random ID
+      "TX_Titulo": title,
+      "TX_Conteudo": content,
+      "NM_Usuario_Criacao": userName,
+      "DH_Criacao": new Date().toISOString(),
+      "Arr_Respostas": []
+    };
+  
+    let topicList = JSON.parse(localStorage.getItem('topic_list')) || [];
+    topicList.push(newTopic);
+    localStorage.setItem('topic_list', JSON.stringify(topicList));
+    
+    hideModal();
+    window.location.href = '/codigo-fonte/forum'
+  }
+})
+
+
+
