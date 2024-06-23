@@ -16,7 +16,7 @@
           window.location.href = '/puc-eco-vida/login'; // Redirect to login page
       } else {
           // Load the layout HTML
-  fetch('../layouts/layout.html')
+  fetch('./layouts/layout.html')
     .then(response => response.text())
     .then(layout => {
       document.body.innerHTML += layout;
@@ -24,7 +24,7 @@
     .then(() => {
       // Ensure layout.js runs after the layout is loaded
       const layoutScript = document.createElement('script');
-      layoutScript.src = '../layouts/layout.js';
+      layoutScript.src = './layouts/layout.js';
       layoutScript.onload = () => {
         // Load page.js as the last component
         const pageScript = document.createElement('script');

@@ -19,7 +19,7 @@ function checkInputs(){
     if(exist){
       if(exist.TX_Password === senhaValue){
         localStorage.setItem('user_logged', JSON.stringify(usuarioValue))
-         window.location.href = '/puc-eco-vida/home'
+         window.location.href = '/puc-eco-vida'
       }else{
         return  alert('Usuário ou senha incorretos!')
       }
