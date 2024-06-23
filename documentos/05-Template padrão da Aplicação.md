@@ -4,8 +4,8 @@ O layout padrão do site foi construído com as linguaguem de marcação HTML e 
 
 Após login no EcoVida, as páginas terão como elementos padrões o menu de navegação e o footer, além dos elementos de identidade visual citados abaixo:
 
-Cores (RGB): #000000, #DDECDC, #324431, #6C926A, #90C38D e #FFFFFF;<br>
-Font-family: Comfortaa e Roboto;<br>
+Cores (RGB): #000000, #DDECDC, #324431, #6C926A, #90C38D e #FFFFFF;</br>
+Font-family: Comfortaa e Roboto;</br>
 Font-size: 24px, 20px, 16px, 14px.
 
 O código utilizado para a construção dos elementos citados pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/tree/main/codigo-fonte">aqui</a>. As imagens utilizadas no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/tree/main/documentos/img">aqui</a>.
