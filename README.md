@@ -36,8 +36,7 @@ O objetivo geral deste projeto é desenvolver uma aplicação web que facilite a
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
-
+* https://icei-puc-minas-pmv-ads.github.io/puc-eco-vida/login/
 # Código-Fonte
 
 * <a href="codigo-fonte/README.md">Código Fonte</a>
