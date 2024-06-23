@@ -10,7 +10,7 @@ Sendo assim, a equipe está organizada da seguinte maneira:
 
 - Scrum Master: Ryan Aragão.
 - Product Owner: Janaina Esteves de Faria.
-- Equipe de Desenvolvimento: Carine Nascimento Marques, Claudius Suetonio de Abreu Domingues Junior, Janaina Esteves de Faria, Priscila Roque Batista Dias, Ryan Aragão e Wesley Duarte da Silva.
+- Equipe de Desenvolvimento: Carine Nascimento Marques, Claudius Suetonio de Abreu Domingues Junior, Janaina Esteves de Faria, Ryan Aragão e Wesley Duarte da Silva.
 - Equipe de Design: Carine Nascimento Marques, Ryan Aragão e Claudius Suetonio de Abreu Domingues Junior.
 
 ### Processo
@@ -61,7 +61,7 @@ As ferramentas empregadas no projeto são:
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/tree/main/documentos |
 | Projeto de Interface                | Figma                              | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projpuc-ecovida/blob/main/documentos/04-Projeto%20de%20Interface.md |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1054 |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Hospedagem                          | GitHub Pages                       | https://icei-puc-minas-pmv-ads.github.io/puc-eco-vida/login/ |
 
 
 ### Estratégia de Organização de Codificação 
