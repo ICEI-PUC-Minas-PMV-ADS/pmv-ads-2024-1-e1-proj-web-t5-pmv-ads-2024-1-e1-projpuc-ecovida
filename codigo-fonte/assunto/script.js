@@ -155,6 +155,44 @@
   
       document.getElementById('totalTopics').textContent = `${topic.Arr_Respostas.length} respostas`;
     }
+
+    window.addResposta = function addResposta(event) {
+      event.preventDefault();
+      const data = new FormData(event.target)
+      const respostaText = data.get('resposta')
+      const userLogged = JSON.parse(localStorage.getItem('user_logged'));
+      if(respostaText.length < 5){
+        return alert('Sua resposta deve conter ao menos 5 caracteres!')
+      }
+      if (!userLogged) {
+        window.location.href = '/codigo-fonte/login';
+        return;
+      }
+  
+      const urlParams = new URLSearchParams(window.location.search);
+      const id_assunto = parseInt(urlParams.get('id_assunto'), 10);
+      let topicList = JSON.parse(localStorage.getItem('topic_list')) || [];
+      const topicIndex = topicList.findIndex(topic => topic.ID_Assunto === id_assunto);
+  
+      if (topicIndex === -1) {
+        console.error(`No topic found with ID ${id_assunto}`);
+        return;
+      }
+  
+      const newResposta = {
+        "TX_Resposta": respostaText,
+        "NM_Usuario": userLogged,
+        "DH_Criacao": new Date().toISOString()
+      };
+  
+      topicList[topicIndex].Arr_Respostas.push(newResposta);
+      localStorage.setItem('topic_list', JSON.stringify(topicList));
+  
+      document.getElementById('resposta').value = '';
+     window.location.href = `/codigo-fonte/assunto/?id_assunto=${id_assunto}`
+    }
+
+    
   
     // Load the assunto details once the page and layout are loaded
     loadAssunto();
