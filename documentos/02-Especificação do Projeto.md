@@ -81,7 +81,7 @@ Um meio de acesso rápido a informações confiáveis sobre os impactos ambienta
 |-------|---------------------------------|----|
 | RF-01 | A aplicação deve permitir que o usuário busque informações sobre atividades ambientais por meio de filtros. | Média | 
 | RF-02 | A aplicação deve permitir que o usuário preencha formulário para denunciar ações prejudiciais ao meio ambiente. | Alta | 
-| RF-03 | A aplicação deve permitir que o usuário localize postos de coleta de lixo reciclável em sua região por meio de um mapa interativo. | Alta | 
+| RF-03 | A aplicação deve permitir que o usuário localize postos de coleta de lixo reciclável em sua região. | Alta | 
 | RF-04 | A aplicação deve permitir ao usuário crie uma lista de hábitos sustentáveis. | Alta | 
 | RF-05 | A aplicação deve disponibilizar para o usuário dicas, publicações, tutoriais, vídeos, entre outros, relacionados ao meio ambiente. | Alta | 
 | RF-06 | A aplicação dever permitir que o usuário crie fóruns e interaja com outros usuários sobre diversos temas ambientais. | Média | 
