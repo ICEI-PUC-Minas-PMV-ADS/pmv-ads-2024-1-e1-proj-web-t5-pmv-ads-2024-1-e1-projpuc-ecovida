@@ -14,7 +14,6 @@ O objetivo geral deste projeto é desenvolver uma aplicação web que facilite a
 * Claudius Suetonio de Abreu Domingues Junior
 * Janaina Esteves de Faria
 * Ryan Aragão
-* Wesley Duarte da Silva
 
 ## Orientador
 
