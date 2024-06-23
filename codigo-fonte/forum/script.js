@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
         topicElement.classList.add('topic');
 
         const titleLink = document.createElement('a');
-        titleLink.href = `/codigo-fonte/forum/assunto/?id_assunto=${topic.ID_Assunto}`;
+        titleLink.href = `/codigo-fonte/assunto/?id_assunto=${topic.ID_Assunto}`;
         titleLink.textContent = topic.TX_Titulo;
         titleLink.classList.add('title-link');
 

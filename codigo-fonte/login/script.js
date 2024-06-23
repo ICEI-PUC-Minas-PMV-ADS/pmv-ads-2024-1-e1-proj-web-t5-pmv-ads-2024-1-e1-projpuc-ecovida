@@ -18,7 +18,7 @@ function checkInputs(){
 
     if(exist){
       if(exist.TX_Password === senhaValue){
-        localStorage.setItem('user_logged', JSON.stringify(true))
+        localStorage.setItem('user_logged', JSON.stringify(usuarioValue))
          window.location.href = '/codigo-fonte/home'
       }else{
         return  alert('Usuário ou senha incorretos!')
