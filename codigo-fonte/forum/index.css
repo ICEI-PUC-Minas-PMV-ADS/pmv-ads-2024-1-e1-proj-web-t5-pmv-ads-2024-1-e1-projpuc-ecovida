@@ -100,13 +100,13 @@ margin-right: 40px;
     overflow-y: auto;
   }
 
-  a{
+  .title-link{
     color: blue;
     font-family: "Roboto", sans-serif;
     font-size: 1.3rem;
   }
 
-  a:hover{
+  .title-link:hover{
 text-decoration: underline;
   }
 
